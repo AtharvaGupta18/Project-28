@@ -3,7 +3,7 @@ class Stone {
         var options ={
             isStatic: false,
             restitution: 0.3,
-            density: 1.2,
+            density: 1,
             
         }
         this.body = Bodies.rectangle(50, 300, 30, 30, options);
